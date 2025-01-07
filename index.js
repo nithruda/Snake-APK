@@ -1,9 +1,13 @@
-/**
- * @format
- */
+import React from 'react';
+import { SafeAreaView } from 'react-native';
+import TapTheButtonGame from './TapTheButtonGame'; // Adjust path if necessary
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+const App = () => {
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <TapTheButtonGame />
+    </SafeAreaView>
+  );
+};
 
-AppRegistry.registerComponent(appName, () => App);
+export default App;
