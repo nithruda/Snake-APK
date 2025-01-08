@@ -3,8 +3,7 @@
  */
 
 import {AppRegistry} from 'react-native';
-import App from './App';
-import TapTheButtonGame from './src/screens/TapTheButtonGame'; // Adjust path
+import App from './App'; // Main App component
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => TapTheButtonGame);
+AppRegistry.registerComponent(appName, () => App);
